@@ -1,0 +1,117 @@
+eXtensible Markup Language
+TOTAL POINTS 10
+
+1.Question 1
+What is the name of the Python 2.x library to parse XML data?
+xml2
+xml-misc
+xml.etree.ElementTree (check)
+xml.json
+1 point
+
+2.Question 2
+What is the method to cause Python to parse XML that is stored in a string?
+fromstring()  (check)
+parse()
+readall()
+extract()
+xpath()
+1 point
+3.Question 3
+In this XML, which are the "simple elements"?
+
+<people>
+    <person>
+       <name>Chuck</name>
+       <phone>303 4456</phone>
+    </person>
+    <person>
+       <name>Noah</name>
+       <phone>622 7421</phone>
+    </person>
+</people>
+Noah
+name  (check)
+person
+people
+phone  (check)
+1 point
+4.Question 4
+In the following XML, which are attributes?
+<person>
+  <name>Chuck</name>
+  <phone type="intl">
+     +1 734 303 4456
+  </phone>
+  <email hide="yes" />
+</person>
+type  (check)
+email
+name
+person
+hide  (check)
+1 point
+5.Question 5
+In the following XML, which node is the parent node of node e
+  <b>X</b>
+  <c>
+    <d>Y</d>
+    <e>Z</e>
+  </c>
+</a>
+e
+a
+b
+c  (check)
+1 point
+6.Question 6
+Looking at the following XML, what text value would we find at path "/a/c/e"
+<a>
+  <b>X</b>
+  <c>
+    <d>Y</d>
+    <e>Z</e>
+  </c>
+</a>
+a
+e
+Z  (check)
+Y
+b
+1 point
+
+7.Question 7
+What is the purpose of XML Schema?
+To establish a contract as to what is valid XML  (check)
+To compute SHA1 checksums on data to make sure it is not modified in transit
+A Python program to tranform XML files
+To transfer XML data reliably during network outages
+1 point
+
+8.Question 8
+If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list, what XML tag would you use in your XML Schema definition?
+xs:element
+xs:sequence
+xs:enumeration  (check)
+xs:complexType
+maxOccurs
+1 point
+
+9.Question 9
+What does the "Z" mean in this representation of a time:
+1
+2002-05-30T09:30:10Z
+This time is in the UTC timezone  (check)
+The hours value is in the range 0-12
+The local timezone for this time is New Zealand
+This time is Daylight Savings Time
+1 point
+
+10.Question 10
+Which of the following dates is in ISO8601 format?
+2002-05-30T09:30:10Z  (check)
+05/30/2002
+2002-May-30
+May 30, 2002
+1 point
+
