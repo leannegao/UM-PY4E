@@ -1,0 +1,86 @@
+REST, JSON, and APIs
+TOTAL POINTS 10
+1.Question 1
+Who is credited with getting the JSON movement started?
+Douglas Crockford  <check>
+Pooja Sankar
+Mitchell Baker
+Bjarne Stroustrup
+1 point
+
+2.Question 2
+Which of the following is true about an API?
+An API keeps servers running even when the power is off
+An API defines the pin-outs for the USB connectors
+An API is a contract that defines how to use a software library  <check>
+An API defines the header bits in the first 8 bits of all IP packets
+1 point
+
+3.Question 3
+What is the method used to parse a string containing JSON data so that you can work with the data in Python?
+json.read()
+json.parse()
+json.loads()  <check>
+json.connect()
+1 point
+
+4.Question 4
+What kind of variable will you get in Python when the following JSON is parsed:
+[ "Glenn", "Sally", "Jen" ]
+A list with three items  <check>
+A dictionary with three key / value pairs
+A dictionary with one key / value pair
+Three tuples
+One Tuple
+1 point
+
+5.Question 5
+Which of the following is not true about the service-oriented approach?
+Standards are developed where many pairs of applications must work together 
+An application runs together all in one place    <check>
+An application makes use of the services provided by other applications
+Web services and APIs are used to transfer data between applications
+1 point
+
+6.Question 6
+Which of these two web service approaches is preferred in most modern service-oriented applications?
+REST - Representational state transfer    <check>
+SOAP - Simple Object Access Protocol  
+1 point
+
+7.Question 7
+What library call do you make to append properly encoded parameters to the end of a URL like the following:
+http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI
+re.match()
+urllib.parse.urlencode()  <check>
+re.encode()
+urllib.urlcat()
+1 point
+
+8.Question 8
+What happens when you exceed the Google geocoding API rate limit?
+You cannot use the API for 24 hours  <check>
+Your application starts to perform very slowly
+You canot use the API until you respond to an email that contains a survey question
+The API starts to perform very slowly
+1 point
+
+9.Question 9
+What protocol does Twitter use to protect its API?
+SOAP
+PKI-HMAC
+OAuth  <check>
+Java Web Tokens
+WS*Security
+SHA1-MD5
+1 point
+
+10.Question 10
+What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?
+x-rate-limit-remaining  <check>
+x-max-requests
+x-request-count-down
+content-type
+1 point
+
+
