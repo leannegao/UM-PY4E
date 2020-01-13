@@ -1,0 +1,28 @@
+Using Encoded Data in Python 3
+LATEST SUBMISSION GRADE 100%
+
+1.Question 1
+What is the most common Unicode encoding when moving data between systems?
+Correct: UTF8
+1 / 1 point
+
+2.Question 2
+What is the ASCII character that is associated with the decimal value 42?
+Correct: *
+1 / 1 point
+
+3.Question 3
+What word does the following sequence of numbers represent in ASCII:
+108, 105, 115, 116
+Correct: list
+1 / 1 point
+
+4.Question 4
+How are strings stored internally in Python 3?
+Correct: Unico
+1 / 1 point
+
+5.Question 5
+When reading data across the network (i.e. from a URL) in Python 3, what method must be used to convert it to the internal format used by strings?
+Correct: decode()
+1 / 1 point
